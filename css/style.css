@@ -356,7 +356,7 @@
   /* Start Skills */
   .skills {
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 50px;
     background-color: #EEE;
   }
   .skills h2 {
@@ -365,6 +365,11 @@
     color: var(--main-color);
     margin: 0 0 50px;
     text-align: center;
+  }
+  @media (max-width: 767px) {
+    .skills h2{
+      margin: 0 0 15px;
+    }
   }
   .skills .skill-box {
     background-color: #FFF;
@@ -375,6 +380,8 @@
   @media (max-width: 767px) {
     .skills .skill-box {
       display: block;
+      padding: 10px;
+      margin-bottom: 10px;
     }
   }
   .skills .skill-box .skill-name {

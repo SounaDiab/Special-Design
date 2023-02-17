@@ -172,7 +172,7 @@
 
     let allSkills = document.querySelectorAll(".skill-box .skill-progress span");
 
-    if (windowScrollTop > (skillsOffsetTop + skillsOuterHeight - windowHeight)) {
+    if ((windowScrollTop + 60) > (skillsOffsetTop + skillsOuterHeight - windowHeight)) {
 
         allSkills.forEach(skill => {
 
